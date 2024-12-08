@@ -1,0 +1,12 @@
+.heading-mou {
+  background-color: #002f6c;
+  height: 7rem;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.little-intro,
+.mou-text {
+  text-align: justify;
+}

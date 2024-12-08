@@ -1,0 +1,276 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.hover-util:hover {
+  color: #5c5b5b;
+}
+.heading-cr {
+  height: 7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #002f6c;
+  color: white;
+}
+.announcements {
+  height: 2rem;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e6f7ff;
+}
+.announcements p {
+  display: inline-block;
+  white-space: nowrap; /* Prevent text from wrapping to a new line */
+  font-size: 1.2rem;
+  animation: scrollText 10s linear infinite; /* Apply animation */
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.nav-box {
+  display: flex;
+  /* background-color: #003049; */
+  padding: 5px;
+}
+.nav-box img {
+  /* height: 99%; */
+  margin: 0;
+  padding: 0;
+}
+.nav-box h1 {
+  margin-left: 5rem;
+  margin-top: 1rem;
+  color: #eae2b7;
+}
+.links {
+  /* background-color: #d62828; */
+  background-color: #ff9f1c;
+  height: 3rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: larger;
+}
+.links a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
+.separation {
+  height: 5px;
+  background-color: #fcc049ce;
+}
+.intro-box {
+  text-align: justify;
+}
+.separation-two {
+  height: 8rem;
+}
+.carousel-box img {
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+}
+.carousel-box {
+  background-color: #fcc049ce;
+}
+/* .carousel-item img {
+  margin: 0 auto;
+} */
+.photo-link {
+  width: 100%;
+  height: 500px;
+}
+.csr {
+  background-color: #00bcd4;
+}
+.cp {
+  background-color: #f5e90d;
+}
+.mou {
+  background-color: #800020;
+}
+.ipr {
+  background-color: #002f6c;
+}
+.tt {
+  background-color: #ffd700;
+}
+
+/*  Animation  */
+.info {
+  position: relative; /* Set position for the containing div */
+  overflow: hidden; /* Hide overflowing text */
+}
+
+.animated-text-1 {
+  transform: translateY(100%); /* Start off-screen */
+  opacity: 0; /* Invisible initially */
+  transition: transform 1.5s ease, opacity 1.5s ease; /* Animate transform and opacity */
+}
+
+.animated-text-1.visible {
+  transform: translateY(0); /* Move to the original position */
+  opacity: 1; /* Fade in */
+}
+.info-csr {
+  position: relative; /* Set position for the containing div */
+  overflow: hidden; /* Hide overflowing text */
+}
+.animated-text-2 {
+  transform: translateY(100%); /* Start off-screen */
+  opacity: 0; /* Invisible initially */
+  transition: transform 1.5s ease, opacity 1.5s ease; /* Animate transform and opacity */
+}
+.animated-text-2.visible {
+  transform: translateY(0); /* Move to the original position */
+  opacity: 1; /* Fade in */
+}
+.info-ipr {
+  position: relative; /* Set position for the containing div */
+  overflow: hidden; /* Hide overflowing text */
+}
+.animated-text-3 {
+  transform: translateY(100%); /* Start off-screen */
+  opacity: 0; /* Invisible initially */
+  transition: transform 1.5s ease, opacity 1.5s ease; /* Animate transform and opacity */
+}
+.animated-text-3.visible {
+  transform: translateY(0); /* Move to the original position */
+  opacity: 1; /* Fade in */
+}
+.info-mou {
+  position: relative; /* Set position for the containing div */
+  overflow: hidden; /* Hide overflowing text */
+}
+.animated-text-4 {
+  transform: translateY(100%); /* Start off-screen */
+  opacity: 0; /* Invisible initially */
+  transition: transform 1.5s ease, opacity 1.5s ease; /* Animate transform and opacity */
+}
+.animated-text-4.visible {
+  transform: translateY(0); /* Move to the original position */
+  opacity: 1; /* Fade in */
+}
+.info-tt {
+  position: relative; /* Set position for the containing div */
+  overflow: hidden; /* Hide overflowing text */
+}
+.animated-text-5 {
+  transform: translateY(100%); /* Start off-screen */
+  opacity: 0; /* Invisible initially */
+  transition: transform 1.5s ease, opacity 1.5s ease; /* Animate transform and opacity */
+}
+.animated-text-5.visible {
+  transform: translateY(0); /* Move to the original position */
+  opacity: 1; /* Fade in */
+}
+.footer {
+  background-color: #5c5b5b;
+  width: 100%;
+}
+.contact-info {
+  border: 2px solid white;
+  border-radius: 2rem;
+  padding: 1rem;
+  width: 18rem;
+}
+.footer-text {
+  margin-top: -2.5rem;
+  margin-left: 5px;
+  background-color: #5c5b5b;
+  width: 10rem;
+}
+.footer p {
+  margin: 0;
+  padding: 0;
+}
+.separation-last {
+  height: 2px;
+  background-color: white;
+}
+.footer-second {
+  background-color: #5c5b5b;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+@keyframes scrollText {
+  0% {
+    transform: translateX(100%); /* Start from the right edge */
+  }
+  100% {
+    transform: translateX(-100%); /* Move completely to the left */
+  }
+}
+/* body {
+  background-color: aliceblue;
+}
+.Home {
+  margin: 0.5rem 5rem;
+  background-color: azure;
+}
+.homeHeader {
+  display: flex;
+  justify-content: space-between;
+}
+.headText {
+  font-size: 3.5rem;
+  padding-right: 1rem;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.links {
+  display: flex;
+  justify-content: space-between;
+  background-color: aqua;
+  margin-top: 1rem;
+  border-left: 1px solid black;
+}
+.links button {
+  border: none;
+  border-radius: 0px;
+  border-right: 1px solid black;
+  background-color: aqua;
+}
+.right-button {
+  border: none;
+}
+.main {
+  margin-top: 1rem;
+}
+.carousel-container {
+  width: 50rem;
+  height: 40rem;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+.photo-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.photo {
+  background-color: chartreuse;
+  height: 22em;
+  width: 44rem;
+  object-fit: cover;
+  margin: 1rem;
+  padding: 1rem;
+}
+.photo a {
+  text-decoration: none;
+  text-decoration: underline;
+  font-size: 1.2rem;
+} */

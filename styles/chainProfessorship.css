@@ -1,0 +1,12 @@
+.heading-cp {
+  background-color: #002f6c;
+  height: 7rem;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.little-intro,
+.cp-text {
+  text-align: justify;
+}

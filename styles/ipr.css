@@ -1,0 +1,47 @@
+.heading-ipr {
+  background-color: #002f6c;
+  height: 7rem;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.little-intro,
+.ipr-text {
+  text-align: justify;
+}
+
+/* .policy-head {
+  text-align: center;
+  font-size: larger;
+}
+.application-form-head {
+  text-align: center;
+  font-size: larger;
+}
+.total-ipr-granted-head {
+  text-align: center;
+  font-size: larger;
+}
+.ipr-filed-head {
+  text-align: center;
+  font-size: larger;
+}
+.contact-details-head {
+  text-align: center;
+  font-size: larger;
+}
+.download-form {
+  height: 2rem;
+  width: 15rem;
+  border: 1px solid black;
+  background-color: antiquewhite;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem;
+}
+.text {
+  text-align: justify;
+  margin: 0 2rem;
+} */

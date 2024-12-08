@@ -1,0 +1,19 @@
+.heading-csr {
+  background-color: #002f6c;
+  height: 7rem;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.little-intro,
+.csr-text {
+  text-align: justify;
+}
+li {
+  text-align: justify;
+  line-height: 1.8rem;
+}
+p {
+  text-align: justify;
+}
